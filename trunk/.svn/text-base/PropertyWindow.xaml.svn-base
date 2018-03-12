@@ -1,0 +1,17 @@
+﻿<Window x:Class="CardReaderGui.PropertyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:crg="clr-namespace:CardReaderGui"
+        Title="Properties" Height="480" Width="800"
+        Name="PropWindow">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Include.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <ListBox Grid.IsSharedSizeScope="True" ScrollViewer.CanContentScroll="False" ItemsSource="{Binding Path=Properties, ElementName=PropWindow}" Margin="5"/>
+    </Grid>
+</Window>

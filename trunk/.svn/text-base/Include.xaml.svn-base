@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="MyKad.xaml"/>
+        <ResourceDictionary Source="TouchNGoCard.xaml"/>
+        <ResourceDictionary Source="EMVCard.xaml"/>
+        <ResourceDictionary Source="NETSCashCard.xaml"/>
+        <ResourceDictionary Source="UnknownCard.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+</ResourceDictionary>

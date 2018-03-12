@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 21
+/svn/!svn/ver/2/trunk
+END
+CardBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/CardBase.cs
+END
+ICardReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/ICardReader.cs
+END
+MyKad.cs
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/2/trunk/MyKad.cs
+END
+APDUResponse.cs
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/APDUResponse.cs
+END
+PropertyWindow.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/PropertyWindow.xaml
+END
+APDUParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/APDUParam.cs
+END
+TouchNGoCard.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/TouchNGoCard.xaml
+END
+PropertyWindow.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/PropertyWindow.xaml.cs
+END
+App.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/2/trunk/App.xaml
+END
+EMVCard.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/EMVCard.xaml
+END
+Include.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/Include.xaml
+END
+TouchNGoCard.cs
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/TouchNGoCard.cs
+END
+CardNative.cs
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/CardNative.cs
+END
+App.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/2/trunk/App.xaml.cs
+END
+EMVCard.cs
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/EMVCard.cs
+END
+Window1.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/Window1.xaml
+END
+UnknownCard.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/UnknownCard.xaml
+END
+CardReaderGui.sln
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/CardReaderGui.sln
+END
+APDUCommand.cs
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/APDUCommand.cs
+END
+Window1.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/Window1.xaml.cs
+END
+UnknownCard.cs
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/UnknownCard.cs
+END
+ISmartCard.cs
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/ISmartCard.cs
+END
+CardReaderGui.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/CardReaderGui.csproj
+END
+NETSCashCard.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/NETSCashCard.xaml
+END
+SmartCardException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/SmartCardException.cs
+END
+MyKad.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/MyKad.xaml
+END
+NETSCashCard.cs
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/NETSCashCard.cs
+END

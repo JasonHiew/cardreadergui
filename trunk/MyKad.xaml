@@ -1,0 +1,50 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:crg="clr-namespace:CardReaderGui">
+
+    <crg:MemoryStreamToImageConverter x:Key="photoConverter"/>
+    
+    <DataTemplate DataType="{x:Type crg:MyKad}">
+        <Border CornerRadius="8" Background="#ff84d0f9">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="155"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Grid.ColumnSpan="2">
+                    <Border CornerRadius="8,8,0,0" Background="#2f000000">
+                        <TextBlock Margin="8" Text="MyKad" FontSize="30" Foreground="DarkBlue" FontWeight="Bold" FontStyle="Italic" />
+                    </Border>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="8,3,5,0" VerticalAlignment="Center" Text="{Binding Path=IC}" FontSize="20"/>
+                        <TextBlock Margin="8,3,5,0" VerticalAlignment="Center" Text="{Binding Path=OldIC, StringFormat='({0})'}" FontSize="14"/>
+                    </StackPanel>
+                    <TextBlock Margin="8,3,5,0" VerticalAlignment="Center" Text="{Binding Path=Name}" FontSize="20" FontWeight="Bold" />
+                    <TextBlock Margin="8,3,5,0" VerticalAlignment="Center" Text="{Binding Path=Citizenship}" FontSize="14"/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="8,3,5,0" VerticalAlignment="Center" Text="{Binding Path=BirthDateString, StringFormat='Birth Date: {0}'}" FontSize="12"/>
+                        <TextBlock Margin="8,3,5,0" VerticalAlignment="Center" Text="{Binding Path=Sex, StringFormat='Sex: {0}'}" FontSize="12"/>
+                    </StackPanel>
+                    <TextBlock Margin="8,3,5,0" VerticalAlignment="Center" Text="{Binding Path=BirthPlace, StringFormat='Birth Place: {0}'}" FontSize="12"/>
+                    <TextBlock Margin="8,3,5,0" VerticalAlignment="Center" Text="{Binding Path=IssueDateString, StringFormat='Issue Date: {0}'}" FontSize="12"/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="8,3,5,0" VerticalAlignment="Center" Text="{Binding Path=Race, StringFormat='Race: {0}'}" FontSize="12"/>
+                        <TextBlock Margin="8,3,5,0" VerticalAlignment="Center" Text="{Binding Path=Religion, StringFormat='Religion: {0}'}" FontSize="12"/>
+                    </StackPanel>
+                    <TextBlock Margin="8,5,5,0" VerticalAlignment="Center" Text="{Binding Path=Address}" FontSize="12"/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="8,0,5,0" VerticalAlignment="Center" Text="{Binding Path=Postcode}" FontSize="12"/>
+                        <TextBlock Margin="0,0,5,0" VerticalAlignment="Center" Text="{Binding Path=City}" FontSize="12"/>
+                    </StackPanel>
+                    <TextBlock Margin="8,0,5,0" VerticalAlignment="Center" Text="{Binding Path=State}" FontSize="12"/>
+                </StackPanel>
+                <Image Grid.Column="1" Margin="5,5,10,0" VerticalAlignment="Center" Source="{Binding Path=Photo, Converter={StaticResource photoConverter}}">
+                    <Image.Effect>
+                        <DropShadowEffect Direction="315" ShadowDepth="4"/>
+                    </Image.Effect>
+                </Image>
+            </Grid>
+        </Border>
+    </DataTemplate>
+
+</ResourceDictionary>
